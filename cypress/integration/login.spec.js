@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 let Chance = require('chance');
-const cypress = require('cypress');
 let chance = new Chance();
 
 describe('Cadastrar', () => {
